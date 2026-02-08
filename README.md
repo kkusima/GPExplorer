@@ -2,6 +2,11 @@
 
 Interactive application for exploring single-objective Gaussian Process regression across different kernel functions.
 
+<a href="https://gpexplorer.streamlit.app/" target="_blank" rel="noopener noreferrer">
+  <img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg" alt="Streamlit App" width="250" height="150"/>
+</a>
+
+
 ## Overview
 
 This tool visualizes how Gaussian Processes model uncertainty over functions. Given a set of observed data points, the GPExplorer computes a posterior distribution over possible functions, providing both predictions and confidence intervals.
