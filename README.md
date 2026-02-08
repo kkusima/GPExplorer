@@ -1,10 +1,10 @@
-# Gaussian Process Regression
+# Gaussian Process Explorer (GPExplorer)
 
-Interactive application for exploring single-objective Gaussian Process regression with various kernel functions.
+Interactive application for exploring single-objective Gaussian Process regression across different kernel functions.
 
 ## Overview
 
-This tool visualizes how Gaussian Processes model uncertainty over functions. Given a set of observed data points, the GP computes a posterior distribution over possible functions, providing both predictions and confidence intervals.
+This tool visualizes how Gaussian Processes model uncertainty over functions. Given a set of observed data points, the GPExplorer computes a posterior distribution over possible functions, providing both predictions and confidence intervals.
 
 Key features:
 - 8 kernel types (RBF, Matern, Periodic, Linear, Polynomial, etc.)
@@ -49,8 +49,3 @@ streamlit run app.py
 | Exponential | Rough, non-differentiable functions |
 
 Kernels can be combined using `+` (additive) or `×` (multiplicative) operators.
-
-## References
-
-- Rasmussen & Williams, *Gaussian Processes for Machine Learning* (2006)
-- Original notebook implementation adapted for interactive use
