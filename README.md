@@ -7,7 +7,7 @@ Interactive application for exploring single-objective Gaussian Process regressi
 </a>
 
 
-## Overview
+## Overview:
 
 This tool visualizes how Gaussian Processes model uncertainty over functions. Given a set of observed data points, the GPExplorer computes a posterior distribution over possible functions, providing both predictions and confidence intervals.
 
